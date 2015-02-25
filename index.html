@@ -27,7 +27,7 @@
   </style>
   <!-- /Inline Styles -->
 
-  <title>Developer Portal | home</title>
+  <title>Viacom Developer Portal | home</title>
 </head>
 
 <body>
@@ -35,14 +35,25 @@
 	  <!-- Header -->
   <header class="myHeader">
 
+    <ul><a href="/user/register">Register</a></li>
+              <li class=""><a href="/user/login">Login</a></li>
+          </ul>
+          <ul><li>FAQs</a></li>
+	</ul>
+	<ul><a href="/faq-page" title="FAQs">FAQs</a></li>
+	</ul>
+	<ul><a href="/user/register">Register</a></li>
+              <li><a href="/user/login">Login</a></li>
+    </ul>
 
   </header>
   <!-- /Header -->
 
+<script src="https://api.apiary.io/seeds/embed.js"></script>
 	
 	  <!-- Header -->
   <header class="myHeader">
-      <img src="http://ride.com/images/logo.png">
+      <img src="http://developer.viacom.com/sites/all/themes/apigee_viacom/logo.png">
     <h1></h1>
   </header>
   <!-- /Header -->
@@ -50,7 +61,7 @@
 <script>
     var embed = new Apiary.Embed({
       header: '.myHeader',
-      subdomain: 'demoapi20',
+      subdomain: 'authrestapi',
       customFonts: {
         googleFonts: 'https://fonts.googleapis.com/css?family=Arimo'
       },
