@@ -1,0 +1,76 @@
+<html>
+<head>
+	<script src="https://api.apiary.io/seeds/embed.js"></script>
+	
+	  <!-- Inline Styles -->
+  <style>
+    html, body {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .myHeader {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background-color: black;
+      text-align: center;
+    }
+.myHeader img {float: left;width: auto;height auto;margin-top: 25px;margin-left: 25px;}
+
+
+
+
+  </style>
+  <!-- /Inline Styles -->
+
+  <title>Viacom Developer Portal | home</title>
+</head>
+
+<body>
+	
+	  <!-- Header -->
+  <header class="myHeader">
+
+    <ul><a href="/user/register">Register</a></li>
+              <li class=""><a href="/user/login">Login</a></li>
+          </ul>
+          <ul><li>FAQs</a></li>
+	</ul>
+	<ul><a href="/faq-page" title="FAQs">FAQs</a></li>
+	</ul>
+	<ul><a href="/user/register">Register</a></li>
+              <li><a href="/user/login">Login</a></li>
+    </ul>
+
+  </header>
+  <!-- /Header -->
+
+<script src="https://api.apiary.io/seeds/embed.js"></script>
+	
+	  <!-- Header -->
+  <header class="myHeader">
+      <img src="http://developer.viacom.com/sites/all/themes/apigee_viacom/logo.png">
+    <h1></h1>
+  </header>
+  <!-- /Header -->
+
+<script>
+    var embed = new Apiary.Embed({
+      header: '.myHeader',
+      subdomain: 'authrestapi',
+      customFonts: {
+        googleFonts: 'https://fonts.googleapis.com/css?family=Arimo'
+      },
+     theme: {
+        fontFamily: 'Arimo'
+      },
+});</script>
+
+
+
+</body>
+</html>
